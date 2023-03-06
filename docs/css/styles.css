@@ -10,6 +10,83 @@
  * Copyright 2011-2021 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
+
+/* fade-in parts start */
+.fade-in{
+  opacity: 0;
+}
+
+.left-to-right {
+  transition-duration: 2s;
+  transform: translate(-100px, 0px);
+}
+
+.aaaa {
+  transition-duration: 2s;
+  transform: translate(500px, -100px);
+}
+
+.kamatyo {
+  transition-duration: 2s;
+  transform: translate(-100px, 100px);
+}
+
+.oni {
+  transition-duration: 2s;
+  transform: translate(-100px, 0px);
+}
+
+.kamatoto {
+  transition-duration: 2s;
+  transform: translate(-100px, 100px);
+}
+
+.kaiten {
+  transition-duration: 2s;
+  transform: translate(-100px, 0px);
+}
+
+.sorekara {
+  transition-duration: 2s;
+  transform: translate(-100px, 0px);
+}
+
+.mr.popo {
+  transition-duration: 2s;
+  transform: translate(-100px, 0px);
+}
+
+.lo-lo-land {
+  transition-duration: 2s;
+  transform: translate(-100px, -100px);
+}
+
+.gakugakuto {
+  transition-duration: 2s;
+  transform: translate(-100px, 0px);
+}
+
+.montiti {
+  transition-duration: 2s;
+  transform: translate(-100px, 0px);
+}
+
+.black {
+  transition-duration: 2s;
+  transform: translate(-100px, 0px);
+}
+
+.takahashi {
+  transition-duration: 2s;
+  transform: translate(500px, 0px);
+}
+
+.scroll-in {
+  opacity: 1;
+  transform: translate(0, 0);
+}
+/* fade-in parts end */
+
 :root {
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
